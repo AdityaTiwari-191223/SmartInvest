@@ -1,7 +1,9 @@
-def main():
-    print('Hello World')
+import csv
 
 
-if __name__ == "__main__":
-    main()
+f = open("UserData.csv", "r")
+
+print(f.read())
+
+
 
